@@ -35,7 +35,7 @@ router.get('/', passport.authenticate('jwt', { session: false }), (req, res) => 
 // @route POST api/profile
 // @desc Create or edit user profile
 // @access Private
-router.get('/', passport.authenticate('jwt', { session: false }), (req, res) => {
+router.post('/', passport.authenticate('jwt', { session: false }), (req, res) => {
   // Get fields
   const profileFields = {}
   profileFields.user = req.user.id;

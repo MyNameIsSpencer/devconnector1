@@ -9,7 +9,7 @@ const validateExperienceInput = require('../../validation/experience');
 const validateEducationInput = require('../../validation/education');
 
 // Load profile Model
-const profile = require('../../models/profile');
+const Profile = require('../../models/Profile');
 // Load user Model
 const User = require('../../models/User');
 

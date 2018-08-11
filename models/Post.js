@@ -20,7 +20,7 @@ const PostSchema = new Schema({
   likes: [
     {
       user: {
-        type: Schema.Ypes.ObjectId,
+        type: Schema.Types.ObjectId,
         ref: 'users'
       }
     }

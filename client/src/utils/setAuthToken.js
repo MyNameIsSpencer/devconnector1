@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// Adds Authorization token to every request if logged in
 const setAuthToken = token => {
   if (token) {
     // Apply to every request

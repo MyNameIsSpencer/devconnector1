@@ -13,6 +13,26 @@ export default ;
 
 
 
+import React, { Component } from 'react';
+
+
+class  extends Component {
+  render(){
+    reutrn(
+      <div>
+
+      </div>
+    )
+  }
+}
+
+export default ;
+
+
+
+
+
+
 
 // App.js
 <Switch>

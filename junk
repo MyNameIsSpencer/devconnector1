@@ -16,9 +16,9 @@ export default ;
 import React, { Component } from 'react';
 
 
-class  extends Component {
-  render(){
-    reutrn(
+class NAMEGOHERE extends Component {
+  render() {
+    return(
       <div>
 
       </div>
@@ -26,35 +26,4 @@ class  extends Component {
   }
 }
 
-export default ;
-
-
-
-
-
-
-
-// App.js
-<Switch>
-  <PrivateRoute
-    exact
-    path="/create-profile"
-    component={CreateProfile}
-  />
-</Switch>
-
-
-
-
-Register.propTypes = {
-  registerUser: PropTypes.func.isRequired,
-  auth: PropTypes.object.isRequired,
-  errors: PropTypes.object.isRequired
-};
-
-const mapStateToProps = state => ({
-  auth: state.auth,
-  errors: state.errors
-});
-
-export default connect(mapStateToProps, { registerUser })(withRouter(Register));
+export default NAMEGOHERE;
